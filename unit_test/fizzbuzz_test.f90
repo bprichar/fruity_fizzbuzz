@@ -14,4 +14,11 @@ call assertEquals("2", fizzbuzz(2))
 
 end subroutine test_fizzbuzz_for_normal_numbers_should_return_them_as_string
 
+subroutine test_fizzbuzz_for_divisible_by_three_should_return_fizz
+
+call assertEquals("fizz", fizzbuzz(3))
+call assertEquals("fizz", fizzbuzz(6))
+
+end subroutine test_fizzbuzz_for_divisible_by_three_should_return_fizz
+
 end module fizzbuzz_test
