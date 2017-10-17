@@ -28,4 +28,11 @@ call assertEquals("buzz", fizzbuzz(10))
 
 end subroutine test_fizzbuzz_for_divisible_by_five_are_buzz
 
+subroutine test_fizzbuzz_for_divisible_by_three_and_five_are_fizzbuzz
+
+call assertEquals("fizzbuzz", fizzbuzz(15))
+call assertEquals("fizzbuzz", fizzbuzz(30))
+
+end subroutine test_fizzbuzz_for_divisible_by_three_and_five_are_fizzbuzz
+
 end module fizzbuzz_test
