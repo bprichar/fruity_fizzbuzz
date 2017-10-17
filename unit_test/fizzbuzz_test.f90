@@ -21,4 +21,11 @@ call assertEquals("fizz", fizzbuzz(6))
 
 end subroutine test_fizzbuzz_for_divisible_by_three_should_return_fizz
 
+subroutine test_fizzbuzz_for_divisible_by_five_should_return_buzz
+
+call assertEquals("buzz", fizzbuzz(5))
+call assertEquals("buzz", fizzbuzz(10))
+
+end subroutine test_fizzbuzz_for_divisible_by_five_should_return_buzz
+
 end module fizzbuzz_test
