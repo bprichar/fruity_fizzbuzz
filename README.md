@@ -1,5 +1,1 @@
-FRUITY FizzBuzz
-===============
-
-Doing the FizzBuzz Kata using Fortran and the
-[fruit_salad](https://github.com/bprichar/fruit_salad) framework.
+Project has moved to https://gitlab.com/everythingfunctional/fruity_fizzbuzz
